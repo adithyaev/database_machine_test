@@ -287,7 +287,7 @@ SELECT * FROM tbl_stock ORDER BY vchr_name DESC LIMIT 3;
 
 
 -- 18
-SELECT vchr_name,int_quantity int_price,(int_quantity*int_price)AS int_quantity*int_price FROM tbl_stock;
+SELECT vchr_name,int_quantity int_price,(int_quantity*int_price)AS int_quantity_int_price FROM tbl_stock;
 
 vchr_name | int_price | int_quantity_int_price
 -----------+-----------+------------------------
